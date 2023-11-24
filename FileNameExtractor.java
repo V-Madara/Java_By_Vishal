@@ -19,5 +19,6 @@ Scanner sc = new Scanner(System.in);
 System.out.println("Output: "+out);
 System.out.println("Filename: "+name);
 System.out.println("Extention: "+ext);
+sc.close();
 }
 }

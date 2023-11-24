@@ -29,6 +29,6 @@ public class Perp {
                 System.out.println();
             }
         }
-        
+        sc.close();
     }
 }

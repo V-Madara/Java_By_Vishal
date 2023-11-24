@@ -26,7 +26,6 @@ public class Reverse {
         out.append(ch[i]);
     }
     return out.toString();
-
     }
     
 }

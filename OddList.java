@@ -33,7 +33,7 @@ public class OddList {
     //     return true;
     // }
     //For large list
-    public static boolean onlyOddNumbers(List<Integer>list){
+    public static boolean onlyOddNumbers(List<Integer> list){
         return list.parallelStream().anyMatch(x-> x %2==0);
     }
 }

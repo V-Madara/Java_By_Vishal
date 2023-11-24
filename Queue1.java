@@ -35,6 +35,6 @@ class Queue {
             ob.addele(sc.nextInt());
         }
         ob.display();
-
+        sc.close();
     }
 }

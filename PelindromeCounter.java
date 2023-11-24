@@ -29,5 +29,6 @@ public class PelindromeCounter {
         }
         System.out.println();
         System.out.println("Number of Pelindrome Words are: "+c);
+        sc.close();
     }
 }

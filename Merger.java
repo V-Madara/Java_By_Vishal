@@ -12,5 +12,6 @@ public class Merger {
         s2 = ""+n2;
         long merg = Long.parseLong(s1+s2);
         System.out.println("Merged Number: "+merg);
+        sc.close();
     }
 }

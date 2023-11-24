@@ -18,7 +18,7 @@ class Pelindrome {
         } else {
             System.out.println(str + " is not a Pelindrome Number..!!");
         }
-
+        sc.close();
     }
     
 }

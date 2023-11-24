@@ -54,6 +54,7 @@ System.out.println("Character Popped: "+ob.popChar());
 else
 break;
 }
+sc.close();
 }
 }
 
