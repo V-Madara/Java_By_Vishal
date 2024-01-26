@@ -8,16 +8,17 @@ public class Capital {
 
         StringTokenizer stz = new StringTokenizer(str);
         String wrd = "", nstr = "", nwrd = "";
-        while (stz.nextToken()) {
+        while (stz.hasMoreTokens()) {
             wrd = stz.nextToken();
             for (int i = 0; i < wrd.length(); i++) {
-                if (i % 2 != 0) {
+                if (i % 2 == 0) {
                     nwrd = nwrd + Character.toUpperCase(wrd.charAt(i));
-                    continue;
+                } else {
+                    nwrd = nwrd + wrd.charAt(i);
                 }
-                nwrd = nwrd + wrd.charAt(i);
             }
             nstr = nstr + " " + nwrd;
+            nwrd = "";
         }
         System.out.println(nstr.trim());
     }
